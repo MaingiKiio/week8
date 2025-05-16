@@ -51,51 +51,42 @@ A data analysis project using real-world COVID-19 data to explore global trends 
 
 ## 🚀 How to Run the Project
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/covid19-global-data-tracker.git
-   cd covid19-global-data-tracker
-   ```
+# How to Use This COVID-19 Global Data Tracker Notebook
 
-2. Ensure you have Python and Jupyter installed. You can create a virtual environment (optional):
-   ```bash
-   python -m venv env
-   source env/bin/activate  # On Windows use `env\Scripts\activate`
-   pip install -r requirements.txt
-   ```
-
-3. Start Jupyter Notebook:
-   ```bash
-   jupyter notebook
-   ```
-
-4. Open the `.ipynb` notebook and run each cell in order to reproduce the analysis.
+This notebook guides you through analyzing global COVID-19 data to explore cases, deaths, and vaccination trends. Follow these steps to understand and use the notebook effectively:
 
 ---
 
-## 📊 Key Insights & Reflections
+### 1. Load the Data
+- Load the COVID-19 dataset (`owid-covid-data.csv`) using pandas.
+- This dataset contains global daily data on cases, deaths, and vaccinations.
 
-- **The United States** had the highest total and per capita vaccination count.
-- **India** experienced the largest spike in daily new cases during mid-2021, corresponding to the Delta variant surge.
-- **Kenya** had a slower start in vaccination rollout but demonstrated steady improvement.
-- **Death rates** remained relatively low in Kenya, potentially due to demographics or underreporting.
+### 2. Explore and Clean the Data
+- Inspect the dataset structure, columns, and missing values.
+- Filter data for selected countries (e.g., Kenya, USA, India).
+- Convert date columns to datetime format and handle missing values.
+
+### 3. Analyze Time Trends
+- Plot total and new COVID-19 cases and deaths over time for each country.
+- Calculate additional metrics such as death rates for deeper insights.
+
+### 4. Visualize Vaccination Progress
+- Plot cumulative vaccinations and vaccination rates over time.
+- Compare vaccination rollouts across countries.
+
+### 5. Compare Across Countries
+- Overlay plots to directly compare trends and metrics between countries.
+- Identify differences in pandemic impact and response.
+
+### 6. Generate Insights
+- Read the markdown explanations accompanying each analysis.
+- Summarize key findings and interesting patterns discovered in the data.
+
+### 7. Reproduce or Customize
+- Modify filters or variables to analyze other countries or metrics.
+- Extend the notebook with additional visualizations or analyses as desired.
 
 ---
 
-## 📁 Project Structure
+By following these steps and running the notebook cells sequentially, you will perform a comprehensive COVID-19 data analysis that meets the project objectives.
 
-```
-covid19-global-data-tracker/
-├── data/
-│   └── owid-covid-data.csv
-├── notebook/
-│   └── covid19_analysis.ipynb
-├── README.md
-└── requirements.txt
-```
-
----
-
-## ✅ License
-
-This project is open-source and available under the MIT License.
