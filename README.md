@@ -34,3 +34,68 @@ This might be influenced by demographic factors such as a younger population or 
 ## Final Thoughts
 
 This analysis highlights the importance of timely vaccination, real-time data collection, and regional-specific responses during global health crises. Data science tools such as Python, pandas, matplotlib, and seaborn provide valuable insights that can guide decision-making and improve public health outcomes.
+
+A data analysis project using real-world COVID-19 data to explore global trends in cases, deaths, and vaccinations across different countries. The project is implemented in a Jupyter Notebook and includes data cleaning, exploratory analysis, visualizations, and narrative insights.
+
+---
+
+## 🛠️ Tools & Libraries Used
+
+- Python 3
+- Jupyter Notebook
+- pandas
+- matplotlib
+- seaborn
+
+---
+
+## 🚀 How to Run the Project
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/covid19-global-data-tracker.git
+   cd covid19-global-data-tracker
+   ```
+
+2. Ensure you have Python and Jupyter installed. You can create a virtual environment (optional):
+   ```bash
+   python -m venv env
+   source env/bin/activate  # On Windows use `env\Scripts\activate`
+   pip install -r requirements.txt
+   ```
+
+3. Start Jupyter Notebook:
+   ```bash
+   jupyter notebook
+   ```
+
+4. Open the `.ipynb` notebook and run each cell in order to reproduce the analysis.
+
+---
+
+## 📊 Key Insights & Reflections
+
+- **The United States** had the highest total and per capita vaccination count.
+- **India** experienced the largest spike in daily new cases during mid-2021, corresponding to the Delta variant surge.
+- **Kenya** had a slower start in vaccination rollout but demonstrated steady improvement.
+- **Death rates** remained relatively low in Kenya, potentially due to demographics or underreporting.
+
+---
+
+## 📁 Project Structure
+
+```
+covid19-global-data-tracker/
+├── data/
+│   └── owid-covid-data.csv
+├── notebook/
+│   └── covid19_analysis.ipynb
+├── README.md
+└── requirements.txt
+```
+
+---
+
+## ✅ License
+
+This project is open-source and available under the MIT License.
